@@ -1,6 +1,7 @@
 // react imports
+import { Chart as ChartJS } from 'chart.js/auto'
 import {Radar, Doughnut, Bar} from 'react-chartjs-2';
-import { Flex, Box } from 'reflexbox'
+import { Flex, Box } from 'rebass'
 import GaugeChart from 'react-gauge-chart'
 import React, {useState,useEffect, useRef} from 'react';
 import Head from 'next/head'
@@ -60,12 +61,14 @@ function saveText(text, filename){
     a.click()
 }
 
-
+export async function getServerSideProps() {
+    return {
+        props: {},
+    }
+}
 
 const results = () => {
 
-    
-    
     const[display,setDisplay] = useState(0)
     const[showPrevious, setShowPrevious] = useState(false)
     const componentRef = useRef();
@@ -305,7 +308,7 @@ const results = () => {
             
             <div>
                 <h2 className='jsonDownload'> Do you wish to print or save the graphs as a pdf?</h2>
-                    <ReactToPrint 
+                    <ReactToPrint
                     trigger={() => <button className='btn'>Export graphs</button>}
                     content={()=>  componentRef.current}
                     />

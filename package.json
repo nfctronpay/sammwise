@@ -8,26 +8,25 @@
     "start": "next start"
   },
   "dependencies": {
-    "@progress/kendo-drawing": "^1.10.1",
-    "@progress/kendo-licensing": "^1.1.4",
-    "@progress/kendo-react-pdf": "^4.7.0",
-    "chart.js": "^3.3.2",
-    "chartjs-gauge": "^0.3.0",
-    "next": "10.2.0",
-    "react": "^16.14.0",
-    "react-advanced-gauge-chart": "^0.2.7",
-    "react-chartjs-2": "^3.0.3",
-    "react-dom": "^16.14.0",
-    "react-dropzone": "^11.3.2",
-    "react-file-drop": "^3.1.2",
-    "react-gauge-chart": "^0.3.0",
-    "react-to-print": "^2.12.6",
-    "rebass": "^4.0.7",
-    "reflexbox": "^4.0.6",
-    "survey-react": "^1.8.48"
+    "@progress/kendo-drawing": "1.17.5",
+    "@progress/kendo-licensing": "1.3.0",
+    "@progress/kendo-react-pdf": "5.13.1",
+    "chart.js": "4.3.0",
+    "chartjs-gauge": "0.3.0",
+    "next": "12.3.4",
+    "react": "17.0.2",
+    "react-advanced-gauge-chart": "1.0.0",
+    "react-chartjs-2": "5.2.0",
+    "react-dom": "17.0.2",
+    "react-dropzone": "14.2.3",
+    "react-file-drop": "3.1.6",
+    "react-gauge-chart": "0.4.0",
+    "react-to-print": "2.14.12",
+    "rebass": "4.0.7",
+    "survey-react": "1.9.85"
   },
   "devDependencies": {
-    "@types/react-gauge-chart": "^0.3.0",
-    "style-loader": "^2.0.0"
+    "@types/react-gauge-chart": "0.4.0",
+    "style-loader": "3.3.2"
   }
 }
